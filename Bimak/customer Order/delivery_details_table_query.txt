@@ -1,0 +1,4 @@
+CREATE TABLE `delivery_details` ( `oId` INT NOT NULL , `cName` VARCHAR(50) NOT NULL , `No` VARCHAR(50) NOT NULL , `city` VARCHAR(50) NOT NULL , `province` VARCHAR(50) NOT NULL , `empId` INT NULL , `empName` VARCHAR(50) NULL , `vId` INT NULL , `vehicleType` VARCHAR(50) NULL , `RegNo` VARCHAR(50) NULL , `courier` VARCHAR(50) NULL , `assigned_date` DATE NULL , `delivered_date` DATE NULL , `del_status` VARCHAR(50) NULL , PRIMARY KEY (`oId`)) ;
+
+..................................................................................................................
+CREATE TABLE `bimak`.`employee_vehicle` ( `empId` INT NOT NULL , `Name` VARCHAR(50) NOT NULL , `Nic` VARCHAR(50) NOT NULL , `vId` INT NOT NULL , `vType` VARCHAR(50) NOT NULL , `RegNo` VARCHAR(100) NOT NULL , PRIMARY KEY (`empId`)) ;

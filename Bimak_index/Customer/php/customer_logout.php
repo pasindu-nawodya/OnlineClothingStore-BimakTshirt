@@ -1,0 +1,12 @@
+<?php
+	session_start();
+	unset($_SESSION['cid']);		
+	unset($_SESSION['firstname']);
+	unset($_SESSION['lastname']);
+	unset($_SESSION['address']);
+	unset($_SESSION['telephone']);
+	unset($_SESSION['email']);
+	unset($_SESSION['password']);
+	unset($_SESSION['cphoto']);
+	header('location:../../index.php');
+?>
