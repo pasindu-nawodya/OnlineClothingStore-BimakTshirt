@@ -1,0 +1,2 @@
+# OnlineClothingStore-BimakTshirt
+This project is to implement a web application for Clothing store to manage their work and activities more efficiently and more instead of their current file based manual system. This project has eight main functionalities Inventory management, employee management, user account management, cart management , delivery management ,vehicle management, financial management and employee account management.
